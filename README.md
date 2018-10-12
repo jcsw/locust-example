@@ -2,13 +2,13 @@
 
 ### Example load testing with Locust ###
 
-Install with Ubuntu
+To install with Ubuntu
 ```
 sudo apt-get install python3 python3-pip
 python3 -m pip install locustio
 ```
 
-Run
+To Run
 ```
 locust -f math-api.py --host=http://localhost:9900
 ```
