@@ -10,7 +10,7 @@ python3 -m pip install locustio
 
 To Run
 ```
-locust -f math-api.py --host=http://localhost:9900
+locust -f google-search.py --host=https://www.google.com
 ```
 
 To access web ui
